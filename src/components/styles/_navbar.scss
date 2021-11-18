@@ -1,0 +1,31 @@
+@import "_variables";
+
+.navbar {
+  border-bottom: 3px solid darken($light, 5%);
+
+  .navbar-brand {
+    img {
+      vertical-align: unset;
+    }
+  }
+
+  .navbar-nav {
+    .start {
+      background-color: $success;
+      border-radius: 8px;
+      color: $gray-800;
+      font-size: large;
+      font-weight: 600;
+      border-bottom: 3px solid darken($success, 5%);
+      border-right: 3px solid darken($success, 5%);
+      &:hover {
+        background-color: $success;
+        color: $gray-800;
+      }
+      &:active {
+        border-bottom: none;
+        border-right: none;
+      }
+    }
+  }
+}
