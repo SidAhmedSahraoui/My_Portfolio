@@ -1,0 +1,16 @@
+export default {
+  primary: "#5cdfb7",
+  hover: "#46c6a0",
+  danger: "#dc5f5f",
+  secondary: "#9340e6",
+  success: "rgb(15, 172, 119)",
+  gray1: "#f7fafc",
+  gray2: "#edf2f7",
+  gray3: "#e2e8f0",
+  gray4: "#cbd5e0",
+  gray5: "#a0aec0",
+  gray6: "#718096",
+  gray7: "#4a5568",
+  gray8: "#2d3748",
+  gray9: "#1a202c",
+};
