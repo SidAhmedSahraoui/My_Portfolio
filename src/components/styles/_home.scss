@@ -49,6 +49,18 @@
     span {
       font-weight: 700;
       color: $primary;
+      z-index: -1;
+    }
+    .line {
+      width: 180px;
+      height: 25px;
+      opacity: 50%;
+      background-color: $gray-700;
+      margin: auto;
+      z-index: 1;
+      position: relative;
+      bottom: 1.75rem;
+      left: 2.5rem;
     }
   }
 

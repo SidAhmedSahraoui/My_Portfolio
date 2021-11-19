@@ -11,7 +11,7 @@ const NavbarComponent = () => {
         </Link>
 
         <Nav className="ml-auto">
-          <Link to="/contact">
+          <Link to="#footer">
             <Button className="start">Get started</Button>
           </Link>
         </Nav>

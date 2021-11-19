@@ -4,7 +4,7 @@ import Pers from "../../img/PSX_2021.jpg";
 import Claim from "../../img/claim.png";
 import Noty from "../../img/noty.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
@@ -26,7 +26,9 @@ const Home = () => {
         </Row>
         <h1 className="skill-title">
           {" "}
-          <FontAwesomeIcon icon={faCode} size="md" /> <span>Showcase</span>
+          <FontAwesomeIcon icon={faLaptopCode} size="md" />{" "}
+          <span>Showcase</span>
+          <div className="line"></div>
         </h1>
         <div className="row2">
           <div className="col1">
@@ -47,11 +49,25 @@ const Home = () => {
             <h2 className="title"> Noty </h2>
             <p className="desc">
               {" "}
-              Noty is a MERN application for saving notes , tips and reminders{" "}
+              Noty is a web application for saving notes , tips and reminders{" "}
             </p>
           </div>
           <div className="col1">
             <img className="pic" src={Noty} alt="pic" />
+          </div>
+        </div>
+        <div className="row2">
+          <div className="col1">
+            <img className="pic" src={Claim} alt="pic" />
+          </div>
+          <div className="col2">
+            <h2 className="title"> Claim </h2>
+            <p className="desc">
+              {" "}
+              e-administration platform for manage claims and there processing
+              in local administration , this project was developed in the period
+              of summer intership ( 15 days ){" "}
+            </p>
           </div>
         </div>
       </Container>
