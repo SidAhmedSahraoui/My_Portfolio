@@ -11,8 +11,10 @@ const NavbarComponent = () => {
         </Link>
 
         <Nav className="ml-auto">
-          <Link to="#footer">
-            <Button className="start">Get started</Button>
+          <Link to="/about">
+            <Button variant="success" className="start">
+              Get in touch
+            </Button>
           </Link>
         </Nav>
       </Container>
