@@ -51,18 +51,21 @@
         font-size: 20px;
         text-align: center;
       }
+
       .contact {
+        background-color: red;
         width: 16rem;
         height: 3rem;
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         align-items: center;
-        .icon {
-          width: 2rem;
-          height: 2rem;
-          color: $gray-700;
-        }
+      }
+      .icon {
+        width: 2rem;
+        height: 2rem;
+        color: $gray-700;
+
         .ic:hover {
           .icon {
             color: $gray-900;

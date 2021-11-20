@@ -5,7 +5,11 @@ import Pis from "../../img/PXL_2021.jpg";
 import Icsi from "../../img/icsi.png";
 import Andr from "../../img/android.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBook,
+  faEnvelope,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faInstagram,
@@ -29,6 +33,19 @@ const About = () => {
               I'm a full stack developer and UI/UX designer
             </p>
             <div className="contact">
+              <div className="ic">
+                <a
+                  href="mailto:s.sahraoui@esi-sba.dz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faEnvelope}
+                    size="lg"
+                  />
+                </a>{" "}
+              </div>
               <div className="ic">
                 <a
                   href="https://github.com/sidahmedsahraoui"
