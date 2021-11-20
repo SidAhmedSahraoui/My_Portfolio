@@ -7,7 +7,7 @@ const NavbarComponent = () => {
     <Navbar bg="white" expand="lg">
       <Container>
         <Link to="/">
-          <Navbar.Brand>Sid Ahmed</Navbar.Brand>
+          <Navbar.Brand></Navbar.Brand>
         </Link>
 
         <Nav className="ml-auto">
