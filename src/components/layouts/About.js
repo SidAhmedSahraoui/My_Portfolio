@@ -5,11 +5,7 @@ import Pis from "../../img/PXL_2021.jpg";
 import Icsi from "../../img/icsi.png";
 import Andr from "../../img/android.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBook,
-  faCertificate,
-  faGraduationCap,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBook, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faInstagram,

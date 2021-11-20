@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Pers from "../../img/PSX_2021.jpg";
 import Claim from "../../img/claim.png";
 import Noty from "../../img/noty.png";
 import Soc from "../../img/soc.png";
