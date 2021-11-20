@@ -9,11 +9,25 @@ import {
   faBook,
   faEnvelope,
   faGraduationCap,
+  faTools,
 } from "@fortawesome/free-solid-svg-icons";
 import {
+  faBootstrap,
+  faCss3,
+  faDocker,
+  faGit,
   faGithub,
+  faHtml5,
   faInstagram,
+  faJava,
+  faJs,
   faLinkedin,
+  faNode,
+  faNpm,
+  faPhp,
+  faReact,
+  faSass,
+  faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
 const About = () => {
   return (
@@ -110,11 +124,64 @@ const About = () => {
         </h1>
 
         <Row className="row1">
-          <Col className="col1">
+          <Col className="col1 cert">
             <img className="pic" src={Icsi} alt="pic" />
           </Col>
-          <Col className="col1">
+          <Col className="col1 cert">
             <img className="pic" src={Andr} alt="pic" />
+          </Col>
+        </Row>
+        <h1 className="skill-title">
+          {" "}
+          <FontAwesomeIcon icon={faTools} size="sm" /> <span>Tools</span>
+          <div className="line line3"></div>
+        </h1>
+        <Row className="row1 last-row">
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faHtml5} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faCss3} size="lg" />
+          </Col>
+
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faJs} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faSass} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faBootstrap} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faNode} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faNpm} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faPhp} size="lg" />
+          </Col>
+
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faJava} size="lg" />
+          </Col>
+
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faReact} size="lg" />
+          </Col>
+
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faVuejs} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faDocker} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faGit} size="lg" />
+          </Col>
+          <Col className="col1 cert">
+            <FontAwesomeIcon className="tool" icon={faGithub} size="lg" />
           </Col>
         </Row>
       </Container>

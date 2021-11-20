@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 100%;
     .col1 {
       display: flex;
       flex-direction: column;
@@ -29,6 +29,14 @@
         .pic {
           width: 20rem;
         }
+      }
+    }
+    .cert {
+      height: 60%;
+      .tool {
+        width: 45px;
+        height: 45px;
+        color: $gray-900;
       }
     }
     .col2 {
@@ -53,7 +61,6 @@
       }
 
       .contact {
-        background-color: red;
         width: 16rem;
         height: 3rem;
         display: flex;
@@ -74,6 +81,7 @@
       }
     }
   }
+
   .skill-title {
     color: $gray-800;
     text-align: center;
@@ -95,6 +103,9 @@
     }
     .line2 {
       width: 220px;
+    }
+    .line3 {
+      width: 100px;
     }
   }
   @media (max-width: 480px) {
