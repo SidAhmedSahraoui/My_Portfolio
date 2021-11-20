@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Container className="home">
-        <Row className="row1">
+        <Row className="row1 main-row">
           <Col className="col2 main-col">
             <h1 className="title">
               Hello,I'm <span> Ahmed </span>{" "}

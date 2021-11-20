@@ -5,7 +5,16 @@ import Pis from "../../img/PXL_2021.jpg";
 import Icsi from "../../img/icsi.png";
 import Andr from "../../img/android.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faCertificate } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBook,
+  faCertificate,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 const About = () => {
   return (
     <>
@@ -23,6 +32,43 @@ const About = () => {
               Computer Science wich is one of the best cs colleges in algeria ,
               I'm a full stack developer and UI/UX designer
             </p>
+            <div className="contact">
+              <div className="ic">
+                <a
+                  href="https://github.com/sidahmedsahraoui"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className="icon" icon={faGithub} size="lg" />
+                </a>{" "}
+              </div>
+              <div className="ic">
+                <a
+                  href="https://www.linkedin.com/in/sid-ahmed-sahraoui-89a164225/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faLinkedin}
+                    size="lg"
+                  />
+                </a>{" "}
+              </div>
+              <div className="ic">
+                <a
+                  href="https://instagram.com/sid_ahmed_sahraoui"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faInstagram}
+                    size="lg"
+                  />
+                </a>{" "}
+              </div>
+            </div>
           </Col>
         </Row>
         <h1 className="skill-title">
@@ -45,7 +91,7 @@ const About = () => {
         </Row>
         <h1 className="skill-title">
           {" "}
-          <FontAwesomeIcon icon={faCertificate} size="sm" />{" "}
+          <FontAwesomeIcon icon={faGraduationCap} size="sm" />{" "}
           <span>Certificates</span>
           <div className="line line2"></div>
         </h1>

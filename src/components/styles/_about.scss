@@ -51,6 +51,24 @@
         font-size: 20px;
         text-align: center;
       }
+      .contact {
+        width: 16rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        .icon {
+          width: 2rem;
+          height: 2rem;
+          color: $gray-700;
+        }
+        .ic:hover {
+          .icon {
+            color: $gray-900;
+          }
+        }
+      }
     }
   }
   .skill-title {
@@ -74,6 +92,11 @@
     }
     .line2 {
       width: 220px;
+    }
+  }
+  @media (max-width: 480px) {
+    .skill-title {
+      margin-top: 10rem;
     }
   }
 }
