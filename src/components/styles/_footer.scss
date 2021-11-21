@@ -2,16 +2,30 @@
 
 .footer {
   margin-top: 3rem;
+
   .main {
     padding: 0.5rem 3rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 22rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    border: 1px solid darken($gray-700, 10%);
+
+    &:hover {
+      box-shadow: 2px 4px 8px $gray-700;
+    }
     .row {
       text-align: center;
-      .icon {
-        color: $gray-900;
+      h5 {
+        margin: 0px;
+        .icon {
+          color: $gray-900;
+        }
       }
     }
   }
