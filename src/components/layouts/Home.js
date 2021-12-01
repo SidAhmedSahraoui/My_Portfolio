@@ -21,6 +21,25 @@ const Home = () => {
             </p>
           </Col>
         </Row>
+
+        <h1 className="skill-title">
+          {" "}
+          <FontAwesomeIcon icon={faLaptopCode} size="sm" />{" "}
+          <span>Showcase</span>
+          <div className="line"></div>
+        </h1>
+        <Row className="row1 main-row">
+          <Col className="col2 main-col">
+            <h1 className="title">
+              Hello,I'm <span> Ahmed </span>{" "}
+            </h1>
+            <p className="desc">
+              I am full-stack web developer and UI/UX designer who prefers
+              writing clean code , enjoy crafting elegant experiences
+            </p>
+          </Col>
+        </Row>
+
         <h1 className="skill-title">
           {" "}
           <FontAwesomeIcon icon={faLaptopCode} size="sm" />{" "}
