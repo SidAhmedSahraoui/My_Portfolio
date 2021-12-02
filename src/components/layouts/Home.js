@@ -56,7 +56,11 @@ const Home = () => {
         </h1>
         <Row className="row-who">
           <Col className="col1">
-            <img className="pic" src={Pic} alt="pic" />
+            <div className="cont">
+              <div className="img-cont">
+                <img className="image" src={Pic} alt="pic" />
+              </div>
+            </div>
           </Col>
           <Col className="col2">
             <h1 className="title">
@@ -184,9 +188,16 @@ const Home = () => {
           <div className="line"></div>
         </h1>
         <div className="row2">
-          <div className="col1">
-            <img className="pic" src={Claim} alt="pic" />
+          <div className="cont">
+            <div className="col1">
+              <div className="cont">
+                <div className="img-cont">
+                  <img className="image pic" src={Claim} alt="pic" />
+                </div>
+              </div>
+            </div>
           </div>
+
           <div className="col2">
             <h2 className="title"> Claim </h2>
             <p className="desc">
@@ -205,13 +216,25 @@ const Home = () => {
               Noty is a web application for saving notes , tips and reminders{" "}
             </p>
           </div>
-          <div className="col1">
-            <img className="pic" src={Noty} alt="pic" />
+          <div className="cont">
+            <div className="col1">
+              <div className="cont">
+                <div className="img-cont">
+                  <img className="image pic" src={Noty} alt="pic" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="row2">
-          <div className="col1">
-            <img className="pic" src={Soc} alt="pic" />
+          <div className="cont">
+            <div className="col1">
+              <div className="cont">
+                <div className="img-cont">
+                  <img className="image pic" src={Soc} alt="pic" />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="col2">
             <h2 className="title"> Social Charities </h2>
@@ -238,9 +261,15 @@ const Home = () => {
                 superieure d'informatique)
               </p>
             </Col>
-            <Col className="col1">
-              <img className="pic" src={Pis} alt="pis" />
-            </Col>
+            <div className="cont">
+              <Col className="col1">
+                <div className="cont">
+                  <div className="img-cont">
+                    <img className="image" src={Pis} alt="pis" />
+                  </div>
+                </div>
+              </Col>
+            </div>
           </Row>
           <h1 className="skill-title">
             {" "}
@@ -250,12 +279,24 @@ const Home = () => {
           </h1>
 
           <Row className="row1">
-            <Col className="col1 cert">
-              <img className="pic" src={Icsi} alt="pic" />
-            </Col>
-            <Col className="col1 cert">
-              <img className="pic" src={Andr} alt="pic" />
-            </Col>
+            <div className="cont">
+              <Col className="col1 cert">
+                <div className="cont">
+                  <div className="img-cont">
+                    <img className="image" src={Icsi} alt="pic" />
+                  </div>
+                </div>
+              </Col>
+            </div>
+            <div className="cont">
+              <Col className="col1 cert">
+                <div className="cont">
+                  <div className="img-cont">
+                    <img className="image " src={Andr} alt="pic" />
+                  </div>
+                </div>
+              </Col>
+            </div>
           </Row>
         </Container>
       </Container>
