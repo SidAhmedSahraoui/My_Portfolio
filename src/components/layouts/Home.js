@@ -63,9 +63,8 @@ const Home = () => {
               <span>Sid Ahmed Sahraoui </span>{" "}
             </h1>
             <p className="desc">
-              I am 21 years old Computer Science Student at Higher School of
-              Computer Science wich is one of the best cs colleges in algeria ,
-              I'm a full stack developer
+              I am 21 years old algeria based full stack developer and computer
+              science student
             </p>
             <Link to="/resume">
               <Button className="resume-link" variant="success">
