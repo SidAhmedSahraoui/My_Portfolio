@@ -187,8 +187,8 @@ const Home = () => {
             <p className="desc">
               {" "}
               e-administration platform for manage claims and there processing
-              in local administration , this project was developed in the period
-              of summer intership ( 15 days ){" "}
+              in local administration developed in the period of summer
+              intership ( 15 days ){" "}
             </p>
           </div>
         </div>
@@ -212,9 +212,9 @@ const Home = () => {
             <h2 className="title"> Social Charities </h2>
             <p className="desc">
               {" "}
-              Social Charities is an Academic project for the 3rd year computer
-              science , the main objective is to automate the process of request
-              a social service for the university staff{" "}
+              Social Charities is an Academic project for the 3rd year cs , the
+              main objective is to automate the process of request social
+              services for the university staff{" "}
             </p>
           </div>
         </div>
