@@ -57,6 +57,10 @@
     margin: 1rem auto;
   }
   .sec-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
     .cont {
       .img-cont {
         padding: 8px;

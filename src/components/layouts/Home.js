@@ -6,7 +6,12 @@ import Soc from "../../img/soc.png";
 import JS from "../../img/js.jpg";
 import TS from "../../img/ts.svg";
 import JAVA from "../../img/java.png";
-import 
+import Express from "../../img/express.svg";
+import Mongo from "../../img/mongodb.svg";
+import ORCL from "../../img/oracle.png";
+import ReactJS from "../../img/react.png";
+import VueJS from "../../img/vue.png";
+import spring from "../../img/spring.png";
 import MySQL from "../../img/mysql.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode, faTools } from "@fortawesome/free-solid-svg-icons";
@@ -32,33 +37,48 @@ const Home = () => {
           <FontAwesomeIcon icon={faTools} size="sm" /> <span>I Work With</span>
           <div className="line line-tools"></div>
         </h1>
-        <Row className="row1 sec-row">
+        <div className="sec-row">
           <div className="cont">
             <div className="img-cont">
-              <img className="image" src={MySQL} alt="" />
+              <img className="image" src={JS} alt="" />
             </div>
           </div>
           <div className="cont">
             <div className="img-cont">
-              <img className="image" src={MySQL} alt="" />
+              <img className="image" src={TS} alt="" />
             </div>
           </div>
           <div className="cont">
             <div className="img-cont">
-              <img className="image" src={MySQL} alt="" />
+              <img className="image" src={JAVA} alt="" />
             </div>
           </div>
           <div className="cont">
             <div className="img-cont">
-              <img className="image" src={MySQL} alt="" />
+              <img className="image" src={ReactJS} alt="" />
             </div>
           </div>
           <div className="cont">
             <div className="img-cont">
+              <img className="image" src={VueJS} alt="" />
+            </div>
+            <div className="img-cont">
+              <img className="image" src={Express} alt="" />
+            </div>
+            <div className="img-cont">
+              <img className="image" src={spring} alt="" />
+            </div>
+            <div className="img-cont">
+              <img className="image" src={Mongo} alt="" />
+            </div>
+            <div className="img-cont">
               <img className="image" src={MySQL} alt="" />
             </div>
+            <div className="img-cont">
+              <img className="image" src={ORCL} alt="" />
+            </div>
           </div>
-        </Row>
+        </div>
 
         <h1 className="skill-title">
           {" "}
