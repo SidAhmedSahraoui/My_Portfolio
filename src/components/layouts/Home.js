@@ -3,8 +3,13 @@ import { Row, Col, Container } from "react-bootstrap";
 import Claim from "../../img/claim.png";
 import Noty from "../../img/noty.png";
 import Soc from "../../img/soc.png";
+import JS from "../../img/js.jpg";
+import TS from "../../img/ts.svg";
+import JAVA from "../../img/java.png";
+import 
+import MySQL from "../../img/mysql.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode, faTools } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
@@ -16,28 +21,43 @@ const Home = () => {
               Hello,I'm <span> Ahmed </span>{" "}
             </h1>
             <p className="desc">
-              I am full-stack web developer and UI/UX designer who prefers
-              writing clean code , enjoy crafting elegant experiences
+              I am full-stack web developer who prefers writing clean code UI/UX
+              design , I enjoy crafting elegant experiences , building some open
+              source projects on Github or learning new skills.
             </p>
           </Col>
         </Row>
-
         <h1 className="skill-title">
           {" "}
-          <FontAwesomeIcon icon={faLaptopCode} size="sm" />{" "}
-          <span>Showcase</span>
-          <div className="line"></div>
+          <FontAwesomeIcon icon={faTools} size="sm" /> <span>I Work With</span>
+          <div className="line line-tools"></div>
         </h1>
-        <Row className="row1 main-row">
-          <Col className="col2 main-col">
-            <h1 className="title">
-              Hello,I'm <span> Ahmed </span>{" "}
-            </h1>
-            <p className="desc">
-              I am full-stack web developer and UI/UX designer who prefers
-              writing clean code , enjoy crafting elegant experiences
-            </p>
-          </Col>
+        <Row className="row1 sec-row">
+          <div className="cont">
+            <div className="img-cont">
+              <img className="image" src={MySQL} alt="" />
+            </div>
+          </div>
+          <div className="cont">
+            <div className="img-cont">
+              <img className="image" src={MySQL} alt="" />
+            </div>
+          </div>
+          <div className="cont">
+            <div className="img-cont">
+              <img className="image" src={MySQL} alt="" />
+            </div>
+          </div>
+          <div className="cont">
+            <div className="img-cont">
+              <img className="image" src={MySQL} alt="" />
+            </div>
+          </div>
+          <div className="cont">
+            <div className="img-cont">
+              <img className="image" src={MySQL} alt="" />
+            </div>
+          </div>
         </Row>
 
         <h1 className="skill-title">
