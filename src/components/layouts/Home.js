@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Button } from "react-bootstrap";
 import Claim from "../../img/claim.png";
 import Noty from "../../img/noty.png";
 import Soc from "../../img/soc.png";
@@ -31,6 +31,7 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -66,6 +67,11 @@ const Home = () => {
               Computer Science wich is one of the best cs colleges in algeria ,
               I'm a full stack developer
             </p>
+            <Link to="/resume">
+              <Button className="resume-link" variant="success">
+                Resume
+              </Button>
+            </Link>
             <div className="contact">
               <div className="ic">
                 <a
