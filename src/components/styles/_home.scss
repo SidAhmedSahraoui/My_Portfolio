@@ -56,6 +56,22 @@
   .main-row {
     margin: 1rem auto;
   }
+  .sec-row {
+    .cont {
+      .img-cont {
+        padding: 8px;
+        width: 180px;
+        height: 180px;
+        border-radius: 10px;
+        box-shadow: 0 0 3px darken($gray-700, 15%);
+
+        .image {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
   .skill-title {
     color: $gray-800;
     text-align: center;
@@ -75,6 +91,9 @@
       position: relative;
       bottom: 1.75rem;
       left: 2.5rem;
+    }
+    .line-tools {
+      width: 230px;
     }
   }
 

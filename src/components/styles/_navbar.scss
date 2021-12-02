@@ -2,7 +2,7 @@
 
 .navbar {
   border-bottom: 3px solid darken($light, 5%);
-
+  background-color: $gray-200;
   .navbar-brand {
     img {
       vertical-align: unset;
