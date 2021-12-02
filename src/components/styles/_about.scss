@@ -91,7 +91,7 @@
       z-index: -1;
     }
     .line {
-      width: 140px;
+      width: 135px;
       height: 25px;
       opacity: 40%;
       background-color: $gray-700;
@@ -99,10 +99,11 @@
       z-index: 1;
       position: relative;
       bottom: 1.75rem;
-      left: 2.5rem;
+      left: 2.1rem;
     }
     .line2 {
       width: 220px;
+      left: 2.7rem;
     }
     .line3 {
       width: 100px;

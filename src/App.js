@@ -4,7 +4,6 @@ import "./App.css";
 // layouts
 import Navbar from "./components/layouts/Navbar";
 import Home from "./components/layouts/Home";
-import About from "./components/layouts/About";
 import Footer from "./components/layouts/Footer";
 
 // components
@@ -15,7 +14,6 @@ function App() {
       <div className="app">
         <Navbar />
         <Route exact path="/" component={Home} />
-        <Route exact path="/" component={About} />
         <Footer />
       </div>
     </Router>
