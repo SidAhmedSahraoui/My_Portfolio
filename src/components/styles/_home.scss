@@ -26,10 +26,16 @@
             border-radius: 5px;
           }
         }
+        @media (max-width: 470px) {
+          .img-cont {
+            width: 100%;
+            margin: auto;
+          }
+        }
       }
       @media (max-width: 470px) {
         .cont {
-          width: 100%;
+          width: 20rem;
           margin: auto;
         }
       }
@@ -131,9 +137,15 @@
         }
         @media (max-width: 470px) {
           .img-cont {
-            width: 80%;
+            width: 100%;
             margin: auto;
           }
+        }
+      }
+      @media (max-width: 470px) {
+        .cont {
+          width: 20rem;
+          margin: auto;
         }
       }
       @media (max-width: 470px) {
@@ -198,10 +210,16 @@
       }
     }
     @media (max-width: 470px) {
-      .cont {
-        width: 80%;
+      .img-cont {
+        width: 100%;
         margin: auto;
       }
+    }
+  }
+  @media (max-width: 470px) {
+    .cont {
+      width: 20rem;
+      margin: auto;
     }
   }
   .skill-title {
@@ -250,14 +268,21 @@
             border-radius: 5px;
           }
         }
+        @media (max-width: 470px) {
+          .img-cont {
+            width: 100%;
+            margin: auto;
+          }
+        }
       }
       @media (max-width: 470px) {
         .cont {
-          width: 80%;
+          width: 20rem;
           margin: auto;
         }
       }
     }
+
     .col2 {
       width: 450px;
       display: flex;

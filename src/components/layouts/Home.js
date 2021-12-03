@@ -188,12 +188,10 @@ const Home = () => {
           <div className="line"></div>
         </h1>
         <div className="row2">
-          <div className="cont">
-            <div className="col1">
-              <div className="cont">
-                <div className="img-cont">
-                  <img className="image pic" src={Claim} alt="pic" />
-                </div>
+          <div className="col1">
+            <div className="cont">
+              <div className="img-cont">
+                <img className="image pic" src={Claim} alt="pic" />
               </div>
             </div>
           </div>
@@ -216,23 +214,19 @@ const Home = () => {
               Noty is a web application for saving notes , tips and reminders{" "}
             </p>
           </div>
-          <div className="cont">
-            <div className="col1">
-              <div className="cont">
-                <div className="img-cont">
-                  <img className="image pic" src={Noty} alt="pic" />
-                </div>
+          <div className="col1">
+            <div className="cont">
+              <div className="img-cont">
+                <img className="image pic" src={Noty} alt="pic" />
               </div>
             </div>
           </div>
         </div>
         <div className="row2">
-          <div className="cont">
-            <div className="col1">
-              <div className="cont">
-                <div className="img-cont">
-                  <img className="image pic" src={Soc} alt="pic" />
-                </div>
+          <div className="col1">
+            <div className="cont">
+              <div className="img-cont">
+                <img className="image pic" src={Soc} alt="pic" />
               </div>
             </div>
           </div>
