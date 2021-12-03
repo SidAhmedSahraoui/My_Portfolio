@@ -42,9 +42,7 @@ const Home = () => {
               Hello,I'm <span> Ahmed </span>{" "}
             </h1>
             <p className="desc">
-              I am full-stack web developer who prefers writing clean code , I
-              enjoy crafting elegant experiences , building some open source
-              projects on Github or learning new skills.
+              I am web developer building cool , robust and scalable web apps
             </p>
           </Col>
         </Row>
@@ -67,8 +65,9 @@ const Home = () => {
               <span>Sid Ahmed Sahraoui </span>{" "}
             </h1>
             <p className="desc">
-              I am 21 years old algeria based full stack developer and computer
-              science student
+              I am full-stack web developer who prefers writing clean code I
+              enjoy crafting elegant experiences , building some open source
+              projects on Github or learning new skills.
             </p>
             <Link to="/resume">
               <Button className="resume-link" variant="success">
