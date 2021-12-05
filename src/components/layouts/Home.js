@@ -65,7 +65,7 @@ const Home = () => {
               <span>Sid Ahmed Sahraoui </span>{" "}
             </h1>
             <p className="desc">
-              I am full-stack web develope who prefers writing clean code I
+              I am full-stack web developer who prefers writing clean code I
               enjoy crafting elegant experiences , building some open source
               projects on Github or learning new skills.
             </p>
