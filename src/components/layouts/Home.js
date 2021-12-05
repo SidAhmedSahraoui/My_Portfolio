@@ -39,7 +39,7 @@ const Home = () => {
         <Row className="row1 main-row">
           <Col className="col2 main-col">
             <h1 className="title">
-              Hello,I'm <span> Ahmed </span>{" "}
+              Hello,I'm <span> Sid Ahmed </span>{" "}
             </h1>
             <p className="desc">
               I am web developer building cool , robust and scalable web apps
@@ -74,7 +74,7 @@ const Home = () => {
                 Resume
               </Button>
             </Link>
-            <div className="contact">
+            <div id="contact" className="contact">
               <div className="ic">
                 <a
                   href="mailto:s.sahraoui@esi-sba.dz"
