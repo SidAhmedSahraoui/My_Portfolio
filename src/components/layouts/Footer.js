@@ -5,9 +5,7 @@ import { Row } from "react-bootstrap";
 import {
   faEnvelope,
   faMapMarkerAlt,
-  faMobile,
   faMobileAlt,
-  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
@@ -15,14 +13,23 @@ const Footer = () => {
     <>
       <div id="footer" className="footer">
         <div className="contact">
-          <div>
-            <FontAwesomeIcon icon={faMobileAlt} />
+          <div className="con-box">
+            <FontAwesomeIcon className="ic" icon={faMobileAlt} size="lg" />
+            <div className="hello">
+              <h5> +213 07-91-26-20-26</h5>
+            </div>
           </div>
-          <div>
-            <FontAwesomeIcon icon={faEnvelope} />
+          <div className="con-box">
+            <FontAwesomeIcon className="ic" icon={faEnvelope} size="lg" />
+            <div className="hello">
+              <h5>s.sahraoui@esi-sba.dz</h5>
+            </div>
           </div>
-          <div>
-            <FontAwesomeIcon icon={faMapMarkerAlt} />
+          <div className="con-box">
+            <FontAwesomeIcon className="ic" icon={faMapMarkerAlt} size="lg" />
+            <div className="hello">
+              <h5> Oued El Abtal - Mascara ⇆ Sidi Bel Abbes</h5>
+            </div>
           </div>
         </div>
         <div className="main">
