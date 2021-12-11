@@ -66,6 +66,7 @@
       .desc {
         color: $gray-700;
         font-size: 20px;
+        font-weight: 600;
         text-align: center;
       }
       .resume-link {
@@ -177,8 +178,14 @@
       }
     }
     .main-col {
+      .title {
+        font-size: 48px;
+        color: black;
+      }
       .desc {
         width: 450px;
+        font-size: 20px;
+        font-weight: 900;
       }
       @media (max-width: 450px) {
         .desc {
