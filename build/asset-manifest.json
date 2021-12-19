@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.fa415f4e.chunk.css",
-    "main.js": "/static/js/main.b852da3a.chunk.js",
-    "main.js.map": "/static/js/main.b852da3a.chunk.js.map",
+    "main.js": "/static/js/main.e9b5b527.chunk.js",
+    "main.js.map": "/static/js/main.e9b5b527.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.dc7c0cf4.chunk.js": "/static/js/2.dc7c0cf4.chunk.js",
-    "static/js/2.dc7c0cf4.chunk.js.map": "/static/js/2.dc7c0cf4.chunk.js.map",
+    "static/js/2.e61e08df.chunk.js": "/static/js/2.e61e08df.chunk.js",
+    "static/js/2.e61e08df.chunk.js.map": "/static/js/2.e61e08df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.94f3f216a87e007752e339496bb5b35a.js": "/precache-manifest.94f3f216a87e007752e339496bb5b35a.js",
+    "precache-manifest.cbe94ed60921288eedbdb401962a51a8.js": "/precache-manifest.cbe94ed60921288eedbdb401962a51a8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.fa415f4e.chunk.css.map": "/static/css/main.fa415f4e.chunk.css.map",
-    "static/js/2.dc7c0cf4.chunk.js.LICENSE.txt": "/static/js/2.dc7c0cf4.chunk.js.LICENSE.txt",
+    "static/js/2.e61e08df.chunk.js.LICENSE.txt": "/static/js/2.e61e08df.chunk.js.LICENSE.txt",
     "static/media/PXL_2021.jpg": "/static/media/PXL_2021.ada02541.jpg",
     "static/media/Sid Ahmed's Resume.pdf": "/static/media/Sid Ahmed's Resume.43fc2b4a.pdf",
+    "static/media/android-studio.svg": "/static/media/android-studio.bbadeeb1.svg",
     "static/media/android.png": "/static/media/android.71140e96.png",
     "static/media/claim.png": "/static/media/claim.d8d34309.png",
     "static/media/express.svg": "/static/media/express.0fb30b49.svg",
@@ -23,13 +24,14 @@
     "static/media/mysql.svg": "/static/media/mysql.d348e471.svg",
     "static/media/noty.png": "/static/media/noty.d060c014.png",
     "static/media/react.png": "/static/media/react.b750f4fd.png",
+    "static/media/sass.svg": "/static/media/sass.b446ca5a.svg",
     "static/media/soc.png": "/static/media/soc.d16f5953.png",
     "static/media/ts.svg": "/static/media/ts.9e8bfce4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.dc7c0cf4.chunk.js",
+    "static/js/2.e61e08df.chunk.js",
     "static/css/main.fa415f4e.chunk.css",
-    "static/js/main.b852da3a.chunk.js"
+    "static/js/main.e9b5b527.chunk.js"
   ]
 }

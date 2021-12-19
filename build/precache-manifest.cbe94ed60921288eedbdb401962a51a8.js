@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46522a56610c5dd5ecbf12eb6ac4e19f",
+    "revision": "e8e68cdbd45e391da19024b9778415ee",
     "url": "/index.html"
   },
   {
-    "revision": "7c1ef26916dc31bd7403",
+    "revision": "7b59e1151e10eb479b2c",
     "url": "/static/css/main.fa415f4e.chunk.css"
   },
   {
-    "revision": "255b35bd246c971b58ad",
-    "url": "/static/js/2.dc7c0cf4.chunk.js"
+    "revision": "e3502c6d821a8f2c94a9",
+    "url": "/static/js/2.e61e08df.chunk.js"
   },
   {
     "revision": "d6b29286b0bbae6e17db84419d44fb6a",
-    "url": "/static/js/2.dc7c0cf4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e61e08df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c1ef26916dc31bd7403",
-    "url": "/static/js/main.b852da3a.chunk.js"
+    "revision": "7b59e1151e10eb479b2c",
+    "url": "/static/js/main.e9b5b527.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "43fc2b4abd94bd404b10b795038c9dd4",
     "url": "/static/media/Sid Ahmed's Resume.43fc2b4a.pdf"
+  },
+  {
+    "revision": "bbadeeb1408386a3c2e70519472e99b3",
+    "url": "/static/media/android-studio.bbadeeb1.svg"
   },
   {
     "revision": "71140e961cdcb6e13d2580eb937ec90a",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b750f4fd3d19d84591d4afb416620815",
     "url": "/static/media/react.b750f4fd.png"
+  },
+  {
+    "revision": "b446ca5a397c1ef6fb94cd02c4e94335",
+    "url": "/static/media/sass.b446ca5a.svg"
   },
   {
     "revision": "d16f59531a3cd41feab39c383e2e31c1",
