@@ -34,11 +34,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="contact">
-            <div className="con-box">
-              <input type="email" placeholder="Email"></input>
-            </div>
-            <div className="con-box">
-              <textarea placeholder="Content"></textarea>
+            <div className="con-box box2">
+              <input
+                className="con-in"
+                type="email"
+                placeholder="Email"></input>
+              <textarea className="con-in" placeholder="Content"></textarea>
+              <input className="btn" type="submit"></input>
             </div>
           </div>
         </div>

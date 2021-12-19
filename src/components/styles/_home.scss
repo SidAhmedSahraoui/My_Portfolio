@@ -71,7 +71,6 @@
       }
       .resume-link {
         margin-bottom: 25px;
-
         background-color: $success;
         border-radius: 8px;
         color: $gray-800;
@@ -88,6 +87,7 @@
         &:active {
           border-bottom: none;
           border-right: none;
+          margin-bottom: 26px;
         }
       }
 
