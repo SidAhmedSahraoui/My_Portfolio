@@ -5,25 +5,22 @@ import Noty from "../../img/noty.png";
 import Soc from "../../img/soc.png";
 import JS from "../../img/js.jpg";
 import TS from "../../img/ts.svg";
-import JAVA from "../../img/java.png";
 import Express from "../../img/express.svg";
 import Mongo from "../../img/mongodb.svg";
-import ORCL from "../../img/oracle.png";
 import ReactJS from "../../img/react.png";
 import VueJS from "../../img/vue.png";
-import spring from "../../img/spring.png";
 import MySQL from "../../img/mysql.svg";
-import Pic from "../../img/PSX_2021.jpg";
-import Pis from "../../img/PXL_2021.jpg";
+import Pic from "../../img/PXL_2021.jpg";
 import Icsi from "../../img/icsi.png";
 import Andr from "../../img/android.png";
+import Sass from "../../img/sass.svg";
+import Studio from "../../img/android-studio.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faLaptopCode,
   faQuestionCircle,
   faTools,
-  faBook,
   faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -42,7 +39,8 @@ const Home = () => {
               Hello,I'm <span> Sid Ahmed </span>{" "}
             </h1>
             <p className="desc">
-              I am web developer building cool , robust and scalable web apps
+              I am web developer building cool , robust and scalable web
+              applications
             </p>
           </Col>
         </Row>
@@ -69,7 +67,7 @@ const Home = () => {
               enjoy crafting elegant experiences , building some open source
               projects on Github or learning new skills.
             </p>
-            <Link to="/resume">
+            <Link target="_blank" to="/resume">
               <Button className="resume-link" variant="success">
                 Resume
               </Button>
@@ -138,11 +136,7 @@ const Home = () => {
               <img className="image" src={TS} alt="" />
             </div>
           </div>
-          <div className="cont">
-            <div className="img-cont">
-              <img className="image" src={JAVA} alt="" />
-            </div>
-          </div>
+
           <div className="cont">
             <div className="img-cont">
               <img className="image" src={ReactJS} alt="" />
@@ -155,14 +149,20 @@ const Home = () => {
           </div>
           <div className="cont">
             <div className="img-cont">
-              <img className="image" src={Express} alt="" />
+              <img className="image" src={Sass} alt="" />
             </div>
           </div>
           <div className="cont">
             <div className="img-cont">
-              <img className="image" src={spring} alt="" />
+              <img className="image" src={Studio} alt="" />
             </div>
           </div>
+          <div className="cont">
+            <div className="img-cont">
+              <img className="image" src={Express} alt="" />
+            </div>
+          </div>
+
           <div className="cont">
             <div className="img-cont">
               <img className="image" src={Mongo} alt="" />
@@ -171,11 +171,6 @@ const Home = () => {
           <div className="cont">
             <div className="img-cont">
               <img className="image" src={MySQL} alt="" />
-            </div>
-          </div>
-          <div className="cont">
-            <div className="img-cont">
-              <img className="image" src={ORCL} alt="" />
             </div>
           </div>
         </div>
@@ -239,30 +234,6 @@ const Home = () => {
           </div>
         </div>
         <Container className="about">
-          <h1 className="skill-title">
-            {" "}
-            <FontAwesomeIcon icon={faBook} size="sm" /> <span>Studies</span>
-            <div className="line"></div>
-          </h1>
-          <Row className="row1">
-            <Col className="col2">
-              <p className="desc">
-                - baccalaureat degree in 2018 with honor 16.73 as the first in
-                my city
-                <br />- 4th year computer science student at ESI (Ecole
-                superieure d'informatique)
-              </p>
-            </Col>
-            <div className="cont">
-              <Col className="col1">
-                <div className="cont">
-                  <div className="img-cont">
-                    <img className="image" src={Pis} alt="pis" />
-                  </div>
-                </div>
-              </Col>
-            </div>
-          </Row>
           <h1 className="skill-title">
             {" "}
             <FontAwesomeIcon icon={faGraduationCap} size="sm" />{" "}

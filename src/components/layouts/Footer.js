@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="con-box">
               <FontAwesomeIcon className="ic" icon={faMapMarkerAlt} size="lg" />
               <div className="hello">
-                <h5> Oued El Abtal - Mascara ⇆ Sidi Bel Abbes</h5>
+                <h5>Sidi Bel Abbes ⇆ Oued El Abtal - Mascara</h5>
               </div>
             </div>
           </div>
