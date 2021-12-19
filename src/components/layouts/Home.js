@@ -200,8 +200,7 @@ const Home = () => {
             <p className="desc">
               {" "}
               e-administration platform for manage claims and there processing
-              in local administration developed in the period of summer
-              intership ( 15 days ){" "}
+              in local administration{" "}
             </p>
           </div>
         </div>
