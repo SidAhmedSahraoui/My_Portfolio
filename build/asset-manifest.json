@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33091354.chunk.css",
+    "main.js": "/static/js/main.0146fcb2.chunk.js",
+    "main.js.map": "/static/js/main.0146fcb2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.9d88962d.chunk.js": "/static/js/2.9d88962d.chunk.js",
+    "static/js/2.9d88962d.chunk.js.map": "/static/js/2.9d88962d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e71d2afd1ce4ea11d5f275410529540a.js": "/precache-manifest.e71d2afd1ce4ea11d5f275410529540a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.33091354.chunk.css.map": "/static/css/main.33091354.chunk.css.map",
+    "static/js/2.9d88962d.chunk.js.LICENSE.txt": "/static/js/2.9d88962d.chunk.js.LICENSE.txt",
+    "static/media/PSX_2021.jpg": "/static/media/PSX_2021.07d9a5ad.jpg",
+    "static/media/PXL_2021.jpg": "/static/media/PXL_2021.ada02541.jpg",
+    "static/media/android.png": "/static/media/android.71140e96.png",
+    "static/media/claim.png": "/static/media/claim.d8d34309.png",
+    "static/media/express.svg": "/static/media/express.0fb30b49.svg",
+    "static/media/icsi.png": "/static/media/icsi.e3e894cc.png",
+    "static/media/js.jpg": "/static/media/js.99ad1847.jpg",
+    "static/media/mongodb.svg": "/static/media/mongodb.ce756188.svg",
+    "static/media/mysql.svg": "/static/media/mysql.d348e471.svg",
+    "static/media/noty.png": "/static/media/noty.d060c014.png",
+    "static/media/react.png": "/static/media/react.b750f4fd.png",
+    "static/media/soc.png": "/static/media/soc.d16f5953.png",
+    "static/media/ts.svg": "/static/media/ts.9e8bfce4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.9d88962d.chunk.js",
+    "static/css/main.33091354.chunk.css",
+    "static/js/main.0146fcb2.chunk.js"
+  ]
+}
