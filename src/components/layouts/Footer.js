@@ -12,23 +12,33 @@ const Footer = () => {
   return (
     <>
       <div id="footer" className="footer">
-        <div className="contact">
-          <div className="con-box">
-            <FontAwesomeIcon className="ic" icon={faMobileAlt} size="lg" />
-            <div className="hello">
-              <h5> +213 07-91-26-20-26</h5>
+        <div className="contact-container">
+          <div className="contact">
+            <div className="con-box">
+              <FontAwesomeIcon className="ic" icon={faMobileAlt} size="lg" />
+              <div className="hello">
+                <h5> +213 07-91-26-20-26</h5>
+              </div>
+            </div>
+            <div className="con-box">
+              <FontAwesomeIcon className="ic" icon={faEnvelope} size="lg" />
+              <div className="hello">
+                <h5>s.sahraoui@esi-sba.dz</h5>
+              </div>
+            </div>
+            <div className="con-box">
+              <FontAwesomeIcon className="ic" icon={faMapMarkerAlt} size="lg" />
+              <div className="hello">
+                <h5> Oued El Abtal - Mascara ⇆ Sidi Bel Abbes</h5>
+              </div>
             </div>
           </div>
-          <div className="con-box">
-            <FontAwesomeIcon className="ic" icon={faEnvelope} size="lg" />
-            <div className="hello">
-              <h5>s.sahraoui@esi-sba.dz</h5>
+          <div className="contact">
+            <div className="con-box">
+              <input type="email" placeholder="Email"></input>
             </div>
-          </div>
-          <div className="con-box">
-            <FontAwesomeIcon className="ic" icon={faMapMarkerAlt} size="lg" />
-            <div className="hello">
-              <h5> Oued El Abtal - Mascara ⇆ Sidi Bel Abbes</h5>
+            <div className="con-box">
+              <textarea placeholder="Content"></textarea>
             </div>
           </div>
         </div>

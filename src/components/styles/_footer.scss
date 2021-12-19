@@ -2,32 +2,44 @@
 
 .footer {
   margin-top: 3rem;
-  .contact {
-    background-color: $secondary;
-    color: blanchedalmond;
-    width: 40%;
-    margin: 24px;
-    .con-box {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      padding: 12px;
-      .hello {
-        width: 80%;
 
-        h5 {
-          margin: 0%;
-          padding: 0%;
-          font-size: 18px;
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .contact {
+      background-color: $secondary;
+      color: blanchedalmond;
+      width: 40%;
+      margin: 24px;
+      border-radius: 8px;
+      padding: 28px 8px;
+      margin-bottom: 24px;
+      .con-box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 12px;
+        margin: 12px auto;
+        .hello {
+          width: 80%;
+
+          h5 {
+            margin: 0%;
+            padding: 0%;
+            font-size: 18px;
+          }
         }
       }
     }
-  }
-  @media (max-width: 680px) {
-    .contact {
-      width: 80%;
-      margin: auto;
+    @media (max-width: 780px) {
+      .contact {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 24px;
+      }
     }
   }
 
