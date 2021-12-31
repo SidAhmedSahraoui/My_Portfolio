@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Navbar, Nav, Button } from "react-bootstrap";
+import { AwesomeButtonProgress } from "react-awesome-button";
+import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const NavbarComponent = () => {
   return (
@@ -7,9 +9,15 @@ const NavbarComponent = () => {
       <Container>
         <Nav className="ml-auto">
           <a href="#footer">
-            <Button variant="success" className="start">
+            <AwesomeButtonProgress
+              className="aws-btn"
+              cssModule={AwesomeButtonStyles}
+              type="primary"
+              onPress={(next) => {
+                // do a sync/async task then call `next()`
+              }}>
               Get in touch
-            </Button>
+            </AwesomeButtonProgress>
           </a>
         </Nav>
       </Container>
